@@ -1,12 +1,10 @@
-.pelicula{
-    display: flex;
-    flex-wrap: wrap;
-}
 .pelicula__cartel{
+    display: block;
     max-height: auto;
     width: 100vw;
 }
 .pelicula__cartel img{
+    display: block;
     object-fit: cover;
     height: 100%;
     width: 100%;
@@ -24,6 +22,15 @@
     height: 58.88%;
     width: 100%;
 }
+.pelicula__ver__imagen1{
+    margin: 20px;
+    height: auto;
+    width: 80%;
+}
+.pelicula__ver__imagen1 img{
+    height: 100%;
+    width: 100%;
+}
 .pelicula__ver__imagen img{
     height: 100%;
     width: 100%;
@@ -33,6 +40,7 @@
     flex-wrap: wrap;
     height: 95%;
     width: 100%;
+    justify-content: center;
 }
 .pelicula__ver__descripcion{
     display: flex;

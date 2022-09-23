@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="/styles/header.css">
     <link rel="stylesheet" href="/styles/anuncio.css">
     <link rel="stylesheet" href="/styles/pelicula.css">
-    <link rel="icon" href="/imagenes/png-transparent-disney-logo-illustration-walt-disney-world-orlando-the-walt-disney-company-d23-logo-letter-d-miscellaneous-silhouette-adventures-by-disney-thumbnail.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.17/dist/css/splide.min.css">
+    <link rel="icon" href="https://static-mh.content.disney.io/matterhorn/assets/favicon-94e3862e7fb9.ico">
     <title>Disney Latino | El sitio oficial de todas las cosas Disney</title>
 </head>
 <body>
@@ -90,37 +91,80 @@
             <img src="https://tpc.googlesyndication.com/simgad/5303454029622295960" alt="Anuncio">
         </div>
     </section>
-    <section class="pelicula">
-        <div class="pelicula__cartel">
-            <img src="https://lumiere-a.akamaihd.net/v1/images/hb_thorloveandthunder_mobile_822_604a195e.jpeg?region=0,0,1024,768&width=768" alt="Thor love and thunder">
-        </div>
-        <div class="pelicula__ver">
-            <div class="pelicula__ver__contenedor">
-                <div class="pelicula__ver__imagen">
-                    <img src="https://lumiere-a.akamaihd.net/v1/images/transparente-tbs_las_tt_4c_c01f_af6a3748.png?region=0,0,1607,961" alt="thor amor y trueno">
-                </div>
-                <div class="pelicula__ver__descripcion">
-                    <h1>Disponible en Disney+</h1>
-                </div>
-                <div class="pelicula__ver__links">
-                    <div class="pelicula__botones__container">
-                        <span class="pelicula__ver__btn">
-                            <a href="">
-                                <span class="pelicula__ver__btn__txt">VER AHORA</span>
-                            </a>
-                        </span>
+    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="pelicula__primero">
+                        <div class="pelicula__cartel">
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/eu_star-wars_andor_hero_m_93e8769b.png?region=0,0,1500,1128" alt="Star wars">
+                        </div>
+                        <div class="pelicula__ver">
+                            <div class="pelicula__ver__contenedor">
+                                <div class="pelicula__ver__imagen1">
+                                    <img src="https://lumiere-a.akamaihd.net/v1/images/hb_disneyplus_andor_logo_mobile_597_529a8756.png?region=0,0,500,170" alt="Star wars">
+                                </div>
+                                <div class="pelicula__ver__descripcion">
+                                    <h1>Disponible en Disney+</h1>
+                                </div>
+                                <div class="pelicula__ver__links">
+                                    <div class="pelicula__botones__container">
+                                        <span class="pelicula__ver__btn">
+                                            <a href="">
+                                                <span class="pelicula__ver__btn__txt">VER AHORA</span>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="pelicula__botones__container">
+                                        <span class="pelicula__ver__btn">
+                                            <a href="">
+                                                <span class="pelicula__ver__btn__txt">LEER MÁS</span>
+                                            </a>
+                                        </span>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="pelicula__botones__container">
-                        <span class="pelicula__ver__btn">
-                            <a href="">
-                                <span class="pelicula__ver__btn__txt">LEER MÁS</span>
-                            </a>
-                        </span>
-                    </div>   
-                </div>
-            </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="pelicula__segundo">
+                        <div class="pelicula__cartel">
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/hb_thorloveandthunder_mobile_822_604a195e.jpeg?region=0,0,1024,768&width=768" alt="Thor love and thunder">
+                        </div>
+                        <div class="pelicula__ver">
+                            <div class="pelicula__ver__contenedor">
+                                <div class="pelicula__ver__imagen">
+                                    <img src="https://lumiere-a.akamaihd.net/v1/images/transparente-tbs_las_tt_4c_c01f_af6a3748.png?region=0,0,1607,961" alt="thor amor y trueno">
+                                </div>
+                                <div class="pelicula__ver__descripcion">
+                                    <h1>Disponible en Disney+</h1>
+                                </div>
+                                <div class="pelicula__ver__links">
+                                    <div class="pelicula__botones__container">
+                                        <span class="pelicula__ver__btn">
+                                            <a href="">
+                                                <span class="pelicula__ver__btn__txt">VER AHORA</span>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="pelicula__botones__container">
+                                        <span class="pelicula__ver__btn">
+                                            <a href="">
+                                                <span class="pelicula__ver__btn__txt">LEER MÁS</span>
+                                            </a>
+                                        </span>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </li>
+              </ul>
         </div>
-    </section>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.17/dist/js/splide.min.js"></script>
 <script src="/javascript/head.js"></script>
+<script src="/javascript/carrusel.js"></script>
 </body>
 </html>
