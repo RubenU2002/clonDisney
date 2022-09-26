@@ -3,6 +3,18 @@
     max-height: auto;
     width: 100vw;
 }
+.splide{
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 58px;
+}
+#slider2{
+    padding: 0px !important;
+}
+.splide__pagination__page{
+    width: 36px !important;   
+}
 .pelicula__cartel img{
     display: block;
     object-fit: cover;
