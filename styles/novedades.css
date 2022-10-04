@@ -47,6 +47,7 @@ ul{
     padding: 12px;
     flex-grow: 1;
     width: 70%;
+    height: auto;
 }
 .novedad__titulo{
     font-size: 10px;

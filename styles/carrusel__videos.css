@@ -1,0 +1,39 @@
+.videos{
+    background-color: #ededed;
+    padding: 10px;
+}
+.titulo{
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.miniatura{
+    width: 100%;
+    height: 260px;
+    position: relative; 
+}
+.miniatura img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.tiempo__video{
+    height: 32px;
+    width: 72px;
+    border-radius: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 100000;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video__reproduccion{
+    position: fixed;
+    z-index: 1000;
+}

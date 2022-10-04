@@ -11,6 +11,10 @@ if(screen.width <=485){
         arrows: false,
         pagination:false,
     } ).mount();
+    new Splide('#slidervideos',{
+        arrows: false,
+        pagination:false,
+    } ).mount();
 }
 else{
     console.log(screen.width)
@@ -18,6 +22,9 @@ else{
         autoplay: true,
     } ).mount();
     new Splide( '#slider2',{
-        arrows: false,
+        pagination: false,
+    } ).mount();
+    new Splide( '#slidervideos',{
+        pagination: false,
     } ).mount();
 }
